@@ -1,0 +1,24 @@
+<test_template>
+  <search key="" result="22" />
+  <search key="coldplay" result="1" />
+  <search key="ora* AND during" result="2" />
+  <search key="ora* NOT france" result="2" />
+  <search key="b?ttles" result="2" />
+  <search key="/b[oa]ttles/" result="2" />
+  <search key="(segment OR sudan) NOT plane" result="3" />
+  <search key="te?t OR (coldplay AND magic)" result="4" />
+  <search key="/[0-9][0-9][0-9][0-9]/" result="21" />
+  <search key="orange~" result="5" />
+  <search key="greece~" result="5" />
+  <search key="/[0-9][0-9][0-9]m/" result="1" />
+  <search key="&quot;I'm very&quot;" result="1" />
+  <search key="test" result="3" />
+  <search key="TAYLOR SWIFT" result="1" />
+  <search key="Bottles" result="1" />
+  <search key="&quot;SPTI support is available&quot;" result="1" />
+  <search key="&quot;excel test&quot;" result="1" />
+  <search key="marker NOT coldplay" result="4" />
+  <search key="&quot;Magic Official Video test 123&quot;" result="1" />
+  <search key="&quot;rolo tomasi&quot;" result="1" />
+  <search key="coco rosi" result="1" />
+</test_template>
