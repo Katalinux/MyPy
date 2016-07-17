@@ -426,4 +426,4 @@ def command_input():
     else:
         command_input()
 
-command_input()
+command_input()  # start pentru aur
